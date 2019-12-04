@@ -1,4 +1,5 @@
-const Schema = require('../lib/schema.js');
+//const Schema = require('../lib/schema.js');
+const Schema = require('../lib/schema');
 
 describe('Schema', () => {
   it('validates a good schema', () => {
