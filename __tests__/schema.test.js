@@ -47,7 +47,7 @@ describe('Schema', () => {
   //     weight: '20 lbs'
   //   };
 
-    //expect(() => schema.validate(dog)).toThrowErrorMatchingSnapshot();
-    //expect(() => schema.validate(dog)).toThrowError(/.*invalid schema.*/);
+  //expect(() => schema.validate(dog)).toThrowErrorMatchingSnapshot();
+  //expect(() => schema.validate(dog)).toThrowError(/.*invalid schema.*/);
   //});
 });
