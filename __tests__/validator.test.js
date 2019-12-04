@@ -16,11 +16,11 @@ const missingWeightDog = {
   age: 5,
   weight: undefined
 };
-const ageAsArrayDog = {
-  name: 'spot',
-  age: [1, 2],
-  weight: '20 lbs'
-};
+// const ageAsArrayDog = {
+//   name: 'spot',
+//   age: [1, 2],
+//   weight: '20 lbs'
+// };
 
 describe('validator module', () => {
   describe('validate fields', () => {
