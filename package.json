@@ -6,15 +6,15 @@
   "directories": {
     "lib": "lib"
   },
-  "dependencies": {
-    "eslint": "^6.7.2",
-    "jest": "^24.9.0"
-  },
   "devDependencies": {
+    "eslint": "^6.7.2",
+    "jest": "^24.9.0",
     "@types/jest": "^24.0.23"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose --coverage",
+    "test:watch": "npm run test -- --watchAll --coverage",
+    "lint": "eslint '**/*.js'"
   },
   "repository": {
     "type": "git",
